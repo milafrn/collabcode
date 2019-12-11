@@ -1,0 +1,6 @@
+.main-logo a{
+    color: var(--color-second);
+    font-family: 'Bitter', serif;
+    text-decoration: none;
+    margin: 0 0 0 10px;
+}

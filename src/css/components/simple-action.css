@@ -1,0 +1,6 @@
+.simple-action {
+    color: var(--color-second);
+    text-decoration: none;
+    font-family: 'comfortaa', sans-serif;
+    margin-right: 10px;
+}
