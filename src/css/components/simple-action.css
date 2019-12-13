@@ -2,5 +2,12 @@
     color: var(--color-second);
     text-decoration: none;
     font-family: 'comfortaa', sans-serif;
-    margin-right: 10px;
+    margin-right: var(--gap-small);
+}
+
+.simple-action.-light{
+    font-family: 'Bitter', serif;
+    color: var(--color-base-light);
+    font-size: 1.3em;
+    margin-top: 0.9em;
 }

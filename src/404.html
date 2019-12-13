@@ -8,16 +8,20 @@
     <title>Clic.ly - Not found page</title>
     <link href="https://fonts.googleapis.com/css?
 family=Bitter:400,400i,700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?
+    <link href="https://fonts.googleapis.com/css?
 family=Comfortaa:300,400,500,700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/settings/reset.css">
     <link rel="stylesheet" href="css/settings/color.css">
+    <link rel="stylesheet" href="css/settings/gap.css">
+    <link rel="stylesheet" href="css/generic/reset.css">
     <link rel="stylesheet" href="css/elements/base.css">
 
     <link rel="stylesheet" href="css/components/main-logo.css">
     <link rel="stylesheet" href="css/components/simple-action.css">
     <link rel="stylesheet" href="css/components/primary-button.css">
+    <link rel="stylesheet" href="css/components/secondary-button.css">
+    <link rel="stylesheet" href="css/components/simple-title.css">
+    <link rel="stylesheet" href="css/components/main-stage.css">
 
     <link rel="stylesheet" href="css/containers/main-header.css">
 </head>
@@ -25,6 +29,7 @@ family=Comfortaa:300,400,500,700&display=swap" rel="stylesheet">
 <body>
     <div class="main-container">
         <div class="container">
+            
             <header class="main-header">
                 <h1 class="main-logo"><a href="#">Clic.ly</a></h1>
 
@@ -35,12 +40,20 @@ family=Comfortaa:300,400,500,700&display=swap" rel="stylesheet">
                     <button class="primary-button"><a href="#" class="text-bt-login">Log In</a></button>
                 </nav>
             </header>
-            <main class="main-page">
-                <div class="titles-page">
-                    <h1 class="title">Seems like we were not ready for that click</h1>
-                    <h2 class="subtitle">well, let's at least play a game?</h2>
+
+            <main class="main-stage">
+                <div class="container_simple-title">
+                    <h1 class="simple-title">Seems like we were not ready for that click</h1>
+                    <h2 class="simple-subtitle">well, let's at least play a game?</h2>
+                </div>
+                <div class="main__container--button">
+                    <div class="container--button">
+                        <button class="primary-button -dark"><a href="#">Play</a></button>
+                        <a href="#" class="simple-action -light">Go Home</a>
+                    </div>
                 </div>
             </main>
+
         </div>
     </div>
 </body>

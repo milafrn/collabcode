@@ -1,9 +1,25 @@
 .primary-button {
+    font-family: 'comfortaa', sans-serif;
     background-color: var(--color-second);
     text-decoration: none;
     color: var(--color-primary);
     border-radius: 0.5em;
-    padding: 5px 12px;
-    margin-right: 10px;
+    padding: 0.4em 1.5em;
+    margin-right: var(--gap-small);
     border: none;
+}
+
+.text-bt-login {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.primary-button.-dark{
+    font-size: 1.5em;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    padding: 0.1em 3.8em;
+}
+.primary-button.-dark a {
+    color: var(--color-base)
 }
