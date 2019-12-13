@@ -21,15 +21,3 @@ a {
     height: 90%;
 }
 
-.main__container--button {
-    width: 100%;
-    height: 50%;
-}
-
-.container--button{
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}

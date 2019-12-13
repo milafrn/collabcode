@@ -2,12 +2,9 @@
     color: var(--color-base);
     font-family: 'Bitter', serif;
     font-weight: bold;
-    font-size: 1.313em;
-    line-height: 1.813em;
+    
 }
 
 .simple-subtitle {
     font-family: 'Bitter', serif;
-    font-size: 0.938em;
-    line-height: 1.125em;
 }
